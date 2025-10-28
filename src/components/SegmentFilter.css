@@ -1,0 +1,76 @@
+.segment-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  position: relative;
+  padding: 0;
+  border: none;
+  background: transparent;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.filter-btn-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: #E3F2FD;
+  color: #1976D2;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-btn:hover .filter-btn-inner {
+  background: #BBDEFB;
+}
+
+.filter-btn.active .filter-btn-inner {
+  background: #90CAF9;
+  color: white;
+}
+
+.filter-btn-shine {
+  position: absolute;
+  left: -4rem;
+  top: -50%;
+  height: 200%;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(30deg);
+  transition: left 0.7s;
+}
+
+.filter-btn:hover .filter-btn-shine {
+  left: calc(100% + 1rem);
+}
+
+.filter-btn.active .filter-btn-shine {
+  background: rgba(255, 255, 255, 0.3);
+}

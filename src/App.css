@@ -1,0 +1,501 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5f7fa;
+  overflow-x: hidden;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.dashboard {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.dashboard-header {
+  background: linear-gradient(270deg, #90CAF9, #9FA8DA, #BA68C8, #CE93D8, #F48FB1, #FF80AB, #90CAF9, #9FA8DA);
+  background-size: 700% 100%;
+  animation: gradientShift 20s linear infinite;
+  color: white;
+  padding: 40px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.header-content {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.header-logo {
+  height: 80px;
+  width: auto;
+}
+
+.header-text {
+  flex: 1;
+  text-align: center;
+}
+
+.dashboard-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.conservation-hover-group {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.conservation-hover-group:hover {
+  color: #BBDEFB;
+}
+
+.conservation-emoji {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 28px;
+  transition: all 0.5s ease;
+  transform: scale(0.8);
+}
+
+.conservation-hover-group:hover .conservation-emoji {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.conservation-emoji-1 {
+  left: -50px;
+  top: 5px;
+}
+
+.conservation-hover-group:hover .conservation-emoji-1 {
+  transform: scale(1.1) rotate(-10deg) translateY(-15px);
+}
+
+.conservation-emoji-2 {
+  left: -70px;
+  top: 0;
+}
+
+.conservation-hover-group:hover .conservation-emoji-2 {
+  transform: scale(1.1) rotate(-20deg) translateX(-15px);
+}
+
+.conservation-emoji-3 {
+  right: -50px;
+  top: 5px;
+}
+
+.conservation-hover-group:hover .conservation-emoji-3 {
+  transform: scale(1.1) rotate(10deg) translateY(-12px);
+}
+
+.conservation-emoji-4 {
+  right: -70px;
+  top: 0;
+}
+
+.conservation-hover-group:hover .conservation-emoji-4 {
+  transform: scale(1.1) rotate(20deg) translateX(20px);
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 18px;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.coalition-link {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.coalition-link:hover {
+  opacity: 1;
+}
+
+.dashboard-content {
+  max-width: 2000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 100px;
+  flex: 1;
+}
+
+section {
+  margin-bottom: 36px;
+}
+
+.two-column-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 1200px) {
+  .two-column-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+section h2 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.environmental-stats {
+  margin-top: 16px;
+}
+
+.funding-section {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.funding-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.funding-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+}
+
+.funding-card h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #666;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.funding-amount {
+  margin: 0 0 8px 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #42A5F5;
+}
+
+.funding-percent {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  color: #888;
+  font-weight: 600;
+}
+
+.view-details-btn {
+  position: relative;
+  padding: 0;
+  border: none;
+  background: transparent;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.view-details-btn-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: #E3F2FD;
+  color: #1976D2;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.view-details-btn:hover .view-details-btn-inner {
+  background: #BBDEFB;
+}
+
+.view-details-btn-shine {
+  position: absolute;
+  left: -4rem;
+  top: -50%;
+  height: 200%;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(30deg);
+  transition: left 0.7s;
+}
+
+.view-details-btn:hover .view-details-btn-shine {
+  left: calc(100% + 1rem);
+}
+
+.chart-section {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.funding-summary,
+.funding-by-source,
+.bmp-utilization {
+  margin-bottom: 40px;
+}
+
+.funding-summary h3,
+.funding-by-source h3,
+.bmp-utilization h3 {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.custom-tooltip {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e0e0e0;
+}
+
+.tooltip-title {
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.custom-tooltip p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Lighter hover state for chart elements */
+.recharts-bar-rectangle:hover,
+.recharts-sector:hover,
+.recharts-area:hover,
+.recharts-line:hover {
+  opacity: 0.95 !important;
+}
+
+.recharts-active-shape {
+  filter: brightness(1.05) !important;
+}
+
+.recharts-layer.recharts-bar-rectangle {
+  transition: opacity 0.2s ease;
+}
+
+.recharts-rectangle.recharts-tooltip-cursor {
+  fill: rgba(0, 0, 0, 0.08) !important;
+  opacity: 1 !important;
+}
+
+.map-section {
+  position: relative;
+}
+
+.map-header {
+  margin-bottom: 16px;
+}
+
+.map-header h2 {
+  margin: 0 0 12px 0;
+}
+
+.map-legend-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+
+.legend-title {
+  font-weight: 600;
+  color: #333;
+  margin-right: 4px;
+}
+
+.legend-item-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.map-wrapper {
+  position: relative;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content {
+  font-size: 14px;
+}
+
+.popup-content h4 {
+  margin: 0 0 8px 0;
+  color: #42A5F5;
+}
+
+.popup-content p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.popup-content ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+  color: #666;
+}
+
+.popup-content hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 8px 0;
+}
+
+.dashboard-footer {
+  background: #333;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+.dashboard-footer p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.loading-container,
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #42A5F5;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-container h2 {
+  color: #d32f2f;
+  margin-bottom: 16px;
+}
+
+.error-container p {
+  color: #666;
+  max-width: 600px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .dashboard-header h1 {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .funding-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .map-legend {
+    top: 60px;
+    right: 10px;
+    padding: 12px;
+  }
+}

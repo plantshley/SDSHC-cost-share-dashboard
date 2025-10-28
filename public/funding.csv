@@ -1,0 +1,100 @@
+﻿BMP,BMP Type,Fund Name,Amount Allocated,Amount Used,Amount Available,Segment,Start,End
+O1-T1-P1 ,Crop Rotation,General Mills,"$150,000.00",$0.00,"$150,000.00",3,9/1/2023,8/31/2026
+O1-T1-P1 ,Crop Rotation,Local Producers,"$13,750.00",$0.00,"$13,750.00",3,9/1/2023,8/31/2026
+O1-T1-P1 ,Crop Rotation,USDA,"$13,750.00",$0.00,"$13,750.00",3,9/1/2023,8/31/2026
+O1-T1-P2 ,Conservation Tillage Residue Management,319,"$12,000.00",$0.00,"$12,000.00",3,9/1/2023,8/31/2026
+O1-T1-P2 ,Conservation Tillage Residue Management,General Mills,"$74,000.00",$0.00,"$74,000.00",3,9/1/2023,8/31/2026
+O1-T1-P2 ,Conservation Tillage Residue Management,Local Producers,"$7,000.00",$0.00,"$7,000.00",3,9/1/2023,8/31/2026
+O1-T1-P2 ,Conservation Tillage Residue Management,USDA,"$8,000.00",$0.00,"$8,000.00",3,9/1/2023,8/31/2026
+O1-T1-P3,Cover Crops,319,"$300,000.00","$121,943.71","$178,056.29",3,9/1/2023,8/31/2026
+O1-T1-P3,Cover Crops,General Mills,"$80,000.00","$3,580.00","$76,420.00",3,9/1/2023,8/31/2026
+O1-T1-P3,Cover Crops,Local Producers,"$300,000.00","$205,251.34","$94,748.66",3,9/1/2023,8/31/2026
+O1-T1-P4 ,Cropland Grazing Management,319,"$4,000.00","$2,128.50","$1,871.50",3,9/1/2023,8/31/2026
+O1-T1-P4 ,Cropland Grazing Management,General Mills,"$80,000.00",$0.00,"$80,000.00",3,9/1/2023,8/31/2026
+O1-T1-P4 ,Cropland Grazing Management,Local Producers,"$2,000.00","$2,128.50",-$128.50,3,9/1/2023,8/31/2026
+O1-T1-P4 ,Cropland Grazing Management,USDA,"$2,000.00",$0.00,"$2,000.00",3,9/1/2023,8/31/2026
+O1-T2-P5 ,Forage/Biomass Planting,319,"$6,000.00","$73,574.16","-$67,574.16",3,9/1/2023,8/31/2026
+O1-T2-P5 ,Forage/Biomass Planting,Local Producers,"$5,500.00","$94,003.69","-$88,503.69",3,9/1/2023,8/31/2026
+O1-T2-P5 ,Forage/Biomass Planting,Pheasants Forever & Ducks Unlimited,"$1,500.00",$0.00,"$1,500.00",3,9/1/2023,8/31/2026
+O1-T2-P5 ,Forage/Biomass Planting,"SD Game, Fish, & Parks","$2,000.00",$0.00,"$2,000.00",3,9/1/2023,8/31/2026
+O1-T2-P5 ,Forage/Biomass Planting,USFWS,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O1-T2-P6,Pollinator Planting,319,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O1-T2-P6,Pollinator Planting,Local Producers,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O1-T2-P6,Pollinator Planting,Pheasants Forever & Ducks Unlimited,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O1-T2-P6,Pollinator Planting,"SD Game, Fish, & Parks","$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O1-T2-P7,Pasture Grazing Management,319,"$60,000.00","$60,891.04",-$891.04,3,9/1/2023,8/31/2026
+O1-T2-P7,Pasture Grazing Management,Local Producers,"$20,000.00","$65,049.54","-$45,049.54",3,9/1/2023,8/31/2026
+O1-T2-P7,Pasture Grazing Management,Pheasants Forever & Ducks Unlimited,"$10,000.00","$11,630.00","-$1,630.00",3,9/1/2023,8/31/2026
+O1-T2-P7,Pasture Grazing Management,"SD Game, Fish, & Parks","$10,000.00","$9,459.00",$541.00,3,9/1/2023,8/31/2026
+O1-T2-P7,Pasture Grazing Management,USFWS,"$10,000.00",$0.00,"$10,000.00",3,9/1/2023,8/31/2026
+O2-T3-P8 ,Audio Commercials/Presentations,Cargill,"$15,000.00",$0.00,"$15,000.00",3,9/1/2023,8/31/2026
+O2-T3-P8 ,Audio Commercials/Presentations,Local Producers,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O2-T3-P8 ,Audio Commercials/Presentations,Pheasants Forever & Ducks Unlimited,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O2-T3-P8 ,Audio Commercials/Presentations,SDSHC,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O2-T3-P9,News Articles,Cargill,"$25,000.00",$0.00,"$25,000.00",3,9/1/2023,8/31/2026
+O2-T3-P9,News Articles,Local Producers,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O2-T3-P9,News Articles,SDSHC,"$2,000.00",$0.00,"$2,000.00",3,9/1/2023,8/31/2026
+O2-T3-P9,News Articles,USDA,"$1,000.00",$0.00,"$1,000.00",3,9/1/2023,8/31/2026
+O2-T4-P10 ,Tour/Workshops,Cargill,"$25,000.00",$0.00,"$25,000.00",3,9/1/2023,8/31/2026
+O2-T4-P10 ,Tour/Workshops,General Mills,"$30,000.00",$0.00,"$30,000.00",3,9/1/2023,8/31/2026
+O2-T4-P10 ,Tour/Workshops,Local Producers,"$4,000.00",$0.00,"$4,000.00",3,9/1/2023,8/31/2026
+O2-T4-P10 ,Tour/Workshops,SDSHC,"$4,000.00",$0.00,"$4,000.00",3,9/1/2023,8/31/2026
+O2-T4-P10 ,Tour/Workshops,USDA,"$2,000.00",$0.00,"$2,000.00",3,9/1/2023,8/31/2026
+O2-T4-P11,Demonstration Plots,Cargill,"$5,000.00",$0.00,"$5,000.00",3,9/1/2023,8/31/2026
+O2-T4-P11,Demonstration Plots,General Mills,"$15,000.00",$0.00,"$15,000.00",3,9/1/2023,8/31/2026
+O2-T4-P11,Demonstration Plots,Local Producers,"$18,500.00",$0.00,"$18,500.00",3,9/1/2023,8/31/2026
+O2-T4-P11,Demonstration Plots,USDA,"$4,000.00",$0.00,"$4,000.00",3,9/1/2023,8/31/2026
+Segment Totals,,,"$1,331,000.00","$649,639.48","$681,360.52",3,9/1/2023,8/31/2026
+O1-T1-P1 ,Crop Rotation,USDA,"$11,000.00",$0.00,"$11,000.00",2,9/1/2020,8/31/2023
+O1-T1-P2 ,Conservation Tillage Residue Management,USDA,"$18,000.00","$9,075.00","$8,925.00",2,9/1/2020,8/31/2023
+O1-T1-P3,Cover Crops,319,"$141,000.00","$129,223.10","$11,776.90",2,9/1/2020,8/31/2023
+O1-T1-P3,Cover Crops,CWSRF-WQ,"$53,000.00","$53,000.00",$0.00,2,9/1/2020,8/31/2023
+O1-T1-P3,Cover Crops,James River Water Development,"$15,000.00","$15,000.00",$0.00,2,9/1/2020,8/31/2023
+O1-T1-P3,Cover Crops,Local Producers,"$56,000.00","$333,123.64","-$277,123.64",2,9/1/2020,8/31/2023
+O1-T1-P3,Cover Crops,USDA,$0.00,"$11,948.34","-$11,948.34",2,9/1/2020,8/31/2023
+O1-T2-P5 ,Forage/Biomass Planting,319,"$17,000.00","$17,459.07",-$459.07,2,9/1/2020,8/31/2023
+O1-T2-P5 ,Forage/Biomass Planting,CWSRF-WQ,"$5,000.00","$5,000.00",$0.00,2,9/1/2020,8/31/2023
+O1-T2-P5 ,Forage/Biomass Planting,Local Producers,"$3,500.00","$40,843.39","-$37,343.39",2,9/1/2020,8/31/2023
+O1-T2-P5 ,Forage/Biomass Planting,Pheasants Forever & Ducks Unlimited,"$1,500.00",$0.00,"$1,500.00",2,9/1/2020,8/31/2023
+O1-T2-P5 ,Forage/Biomass Planting,"SD Game, Fish, & Parks","$5,000.00",$0.00,"$5,000.00",2,9/1/2020,8/31/2023
+O1-T2-P5 ,Forage/Biomass Planting,USFWS,"$1,000.00",$0.00,"$1,000.00",2,9/1/2020,8/31/2023
+O1-T2-P6,Pollinator Planting,Local Producers,"$2,500.00",$0.00,"$2,500.00",2,9/1/2020,8/31/2023
+O1-T2-P6,Pollinator Planting,Pheasants Forever & Ducks Unlimited,"$2,250.00",$0.00,,2,9/1/2020,8/31/2023
+O1-T2-P6,Pollinator Planting,"SD Game, Fish, & Parks","$2,250.00",$0.00,"$2,250.00",2,9/1/2020,8/31/2023
+O1-T2-P7,Pasture Grazing Management,319,"$45,000.00","$15,549.69","$29,450.31",2,9/1/2020,8/31/2023
+O1-T2-P7,Pasture Grazing Management,CWSRF-WQ,"$10,000.00","$10,000.00",$0.00,2,9/1/2020,8/31/2023
+O1-T2-P7,Pasture Grazing Management,Local Producers,"$20,000.00","$22,315.69","-$2,315.69",2,9/1/2020,8/31/2023
+O1-T2-P7,Pasture Grazing Management,Pheasants Forever & Ducks Unlimited,"$10,000.00",$0.00,"$10,000.00",2,9/1/2020,8/31/2023
+O1-T2-P7,Pasture Grazing Management,"SD Game, Fish, & Parks","$10,000.00","$3,234.00","$6,766.00",2,9/1/2020,8/31/2023
+O1-T2-P7,Pasture Grazing Management,USFWS,"$10,000.00",$0.00,"$10,000.00",2,9/1/2020,8/31/2023
+O2-T3-P8 ,Audio Commercials/Presentations,SDSHC,"$1,000.00","$1,526.71",-$526.71,2,9/1/2020,8/31/2023
+O2-T3-P9,News Articles,SDSHC,"$1,000.00","$5,000.00","-$4,000.00",2,9/1/2020,8/31/2023
+O2-T3-P9,News Articles,USDA,"$3,000.00",$541.38,"$2,458.62",2,9/1/2020,8/31/2023
+O2-T4-P10 ,Tour/Workshops,Local Producers,"$4,000.00",$0.00,"$4,000.00",2,9/1/2020,8/31/2023
+O2-T4-P10 ,Tour/Workshops,Private Funds,"$352,761.17","$352,761.17",$0.00,2,9/1/2020,8/31/2023
+O2-T4-P10 ,Tour/Workshops,SDSHC,"$2,000.00",$0.00,"$2,000.00",2,9/1/2020,8/31/2023
+O2-T4-P10 ,Tour/Workshops,USDA,"$4,000.00",$0.00,"$4,000.00",2,9/1/2020,8/31/2023
+O2-T4-P11,Demonstration Plots,Local Producers,"$11,000.00","$11,000.00",$0.00,2,9/1/2020,8/31/2023
+O2-T4-P11,Demonstration Plots,USDA,"$4,000.00","$17,000.00","-$13,000.00",2,9/1/2020,8/31/2023
+Segment Totals,,,"$821,761.17","$1,053,601.18","-$234,090.01",2,9/1/2020,8/31/2023
+O1-T1-P1 ,Landowner Conservation Contacts and Plans,Local Producers,"$65,000.00","$102,168.99","-$37,168.99",1,7/24/2017,8/31/2020
+O1-T1-P4 ,Cropland Grazing Management,Local Producers,"$4,000.00",$0.00,"$4,000.00",1,7/24/2017,8/31/2020
+O1-T1-P4 ,Cropland Grazing Management,USDA,"$12,000.00","$41,068.03","-$29,068.03",1,7/24/2017,8/31/2020
+O2-T2-P3,Soil Health Contacts,Local Producers,"$1,000.00","$84,513.74","-$83,513.74",1,7/24/2017,8/31/2020
+O2-T4-P10 ,Tour/Workshops,319,"$1,500.00",$0.00,"$1,500.00",1,7/24/2017,8/31/2020
+O2-T4-P10 ,Tour/Workshops,Local Producers,"$6,000.00",$0.00,"$6,000.00",1,7/24/2017,8/31/2020
+O2-T4-P10 ,Tour/Workshops,SDSHC,"$1,500.00",$0.00,"$1,500.00",1,7/24/2017,8/31/2020
+O2-T4-P10 ,Tour/Workshops,USDA,"$8,000.00",$0.00,"$8,000.00",1,7/24/2017,8/31/2020
+O2-T4-P11,Demonstration Plots,Local Producers,"$34,000.00",$0.00,"$34,000.00",1,7/24/2017,8/31/2020
+O2-T4-P11,Demonstration Plots,USDA,"$18,000.00",$0.00,"$18,000.00",1,7/24/2017,8/31/2020
+O2-T4-P11,Demonstration Plots,319,"$3,000.00","$4,041.89","-$1,041.89",1,7/24/2017,8/31/2020
+O2-T4-P11,Demonstration Plots,Local Producers,"$6,000.00","$8,200.00","-$2,200.00",1,7/24/2017,8/31/2020
+O2-T4-P11,Demonstration Plots,SDSHC,"$5,000.00",$0.00,"$5,000.00",1,7/24/2017,8/31/2020
+O2-T4-P11,Demonstration Plots,USDA,"$6,000.00","$4,000.00","$2,000.00",1,7/24/2017,8/31/2020
+O3-T3-P7,Public Outreach,319,"$2,000.00",$0.00,"$2,000.00",1,7/24/2017,8/31/2020
+O3-T3-P7,Public Outreach,Local Producers,"$22,000.00","$4,383.40","$17,616.60",1,7/24/2017,8/31/2020
+O3-T3-P7,Public Outreach,SDSHC,"$2,000.00",$0.00,"$2,000.00",1,7/24/2017,8/31/2020
+O3-T3-P7,Public Outreach,USDA,"$6,000.00","$7,645.81","-$1,645.81",1,7/24/2017,8/31/2020
+O4-T4-P8,Reporting,319,$0.00,$0.00,$0.00,1,7/24/2017,8/31/2020
+Segment Totals,,,"$203,000.00","$256,021.86","-$53,021.86",1,7/24/2017,8/31/2020
+All-segment Totals,,,"$2,355,761.17","$1,959,262.52","$394,248.65",,,
